@@ -1,0 +1,91 @@
+body{
+    color: #575c7e;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #515673 url(../img/background_gradient.jpg) repeat-x 0px 0px;
+}
+.page {
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    background-color: #fff;
+}
+h1{
+    font-size: 2em;
+    font-weight: normal;
+    color: #a6430a;
+    margin: 0 0 0.5em 0;
+}
+h1{
+    font-size: 1.7em;
+    margin: 0 0 1em 0;
+}
+h3{
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+}
+    p{
+        margin: 0 0 0.7em 0;
+        text-align: justify;
+    }
+a{
+    color: #de9000;
+}
+a:hover{
+    color: #009eff
+}
+a.contentlink{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0.5em 0 0 0;
+    padding: 0px 12px 0px 0px;
+    background: url('../img/cta_arrow.png') no-repeat right 0px;
+}
+a.contentlink:hover{
+    background-position: right -50px;
+}
+nav a{
+    color: #f5a06e;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+nav a:hover{
+    color: #fff;
+}
+.promo h3{
+    font-size: 1.1em;
+    margin: 0;
+}
+.promo p{
+    line-height: 1.2em;
+    font-size: 0.9em;
+    margin-bottom: 0..5em;
+}
+.promo{
+    background-repeat: no-repeat;
+}
+.promo.satu{
+    background-image: url('../img/promo_1.jpg');
+}
+.promo.dua{
+    background-image: url('../img/promo_2.jpg');
+}
+.promo.tiga{
+    background-image: url('../img/promo_3.jpg');
+}
+.fix-layouts{
+    clear: both;
+    line-height: 1px;    
+}
+footer{
+    font-size: 0.8em;
+    color: #9ba0bd;
+    background-color: #575c7a;
+    padding: 10px 10px 10px 0;
+}

@@ -1,0 +1,29 @@
+header{
+    height: 200px;
+    background: url('../img/banner_medium.jpg') no-repeat right 0px;
+}
+header a.logo{
+    width: 115px;
+    height: 70px;
+    top:20px;
+    right:20px;
+    background-image: url('../img/logo_medium.png');
+}
+nav{
+    top: 200px;
+}
+nav a{
+    margin-right: 20px;
+}
+.promo-container{
+    padding: 0px 20px 15px 20px;
+}
+.promo{
+    background-position: 0px 0px;
+}
+.content{
+    padding: 70px 30px 0px 0px;
+}
+body{
+    background-image: none;
+}

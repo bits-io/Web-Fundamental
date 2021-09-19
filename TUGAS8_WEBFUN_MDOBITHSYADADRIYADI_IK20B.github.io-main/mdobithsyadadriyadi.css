@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+h1{
+    text-align: center;
+}
+.containerDobith {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slidesDobith {
+  display: none;
+}
+.prevDobith, .nextDobith {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  width: 20px;
+  padding: 16px;
+  color: white;
+  transition: 0.6s ease;
+}
+.nextDobith {
+  right: 16px;
+}
+.prevDobith:hover, .nextDobith:hover {
+  opacity: 0.5;
+}
+.dotproductDobith{
+    text-align: center;
+}
+.dotDobith {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(195, 195, 195);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dotDobith:hover {
+  background-color: #686868;
+}
+.fadeDobith {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

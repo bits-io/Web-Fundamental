@@ -1,0 +1,96 @@
+body{
+    font-family: arial, tahoma, monospace;   
+}
+
+header{
+    background-color: black;
+    color: whitesmoke;
+}
+
+header h1{
+    padding: 5px 10px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav li, nav a{
+    display: inline-block;
+}
+
+nav a{
+    color: black;
+    padding: 10px 20px;
+}
+
+nav{
+    text-align: center;
+    background-color: darkgray;
+    border-bottom: 1px solid black;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+section{
+    width: 75%;
+    margin: 0 auto;
+}
+section h1{
+	text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:active{
+    color: orange;
+}
+section ul{
+    list-style-type: circle;
+}
+
+section table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+section table{
+    width: 100%;
+}
+section th{
+    height: 40px;
+    background-color: gray;
+    color: aliceblue;
+}
+section tbody{
+    background-color: white;
+}
+p{
+    text-align: justify;
+}
+
+footer ul, footer li{
+    display: inline;
+}
+footer{
+    padding-top: 5px;
+    text-align: center;
+    color: burlywood;
+}

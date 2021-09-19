@@ -1,0 +1,17 @@
+body{
+    font-family: 'Kalam', cursive, sans-serif;
+}
+.banner{
+    background-image: url('../img/banner.png');
+    min-height: calc(100vh - 56px);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.text-box {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+}
